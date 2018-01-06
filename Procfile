@@ -1,0 +1,1 @@
+web: gunicor clube42.wsgi --log-file -

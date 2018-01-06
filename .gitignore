@@ -1,0 +1,7 @@
+.clubes
+.vscode
+.env
+*.sqlite3
+*pyc
+__pycache__
+docs
