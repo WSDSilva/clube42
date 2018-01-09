@@ -16,8 +16,10 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 from clube42.core.views import home
+from clube42.despesas.views import listadespesas
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', home),
+    url(r'^despesas/$', listadespesas),
 ]

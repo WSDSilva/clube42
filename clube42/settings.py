@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django_extensions',
     'clube42.core',
+    'clube42.despesas',
 ]
 
 MIDDLEWARE = [
