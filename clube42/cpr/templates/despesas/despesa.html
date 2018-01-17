@@ -1,0 +1,20 @@
+<h1>Despesa</h1>
+<form action="." method="post">
+    {% csrf_token %}
+    <div>
+        <label for="{{ despesa.categorias.id_for_label }}">
+            {{ despesa.categorias.label }}
+        </label>
+        {{ despesa.categorias }}
+    </div>
+    <div>
+        <label for="{{ despesa.descricao.id_for_label }}">
+            {{ despesa.descricao.label }}
+        </label>
+        {{ despesa.descricao }}
+    </div>
+    <div>
+        <input type="submit" value="salvar">
+        <input type="button" value="voltar">
+    </div>
+</form>
